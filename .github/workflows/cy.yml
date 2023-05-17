@@ -1,4 +1,4 @@
-name: Pipeline Teste de API Gorest 🧪
+name: Pipeline Teste da API Gorest 🧪
 on: [push]
 jobs:
   cypress-run:
