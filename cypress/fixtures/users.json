@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alyssa Schultz",
+    "email": "Justyn.Cassin@gmail.com",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "name": "Miss Rufus Mann",
+    "email": "Sydnie_Robel58@gmail.com",
+    "gender": "Male",
+    "status": "Inactive"
+  },
+  {
+    "name": "Rodney Rohan",
+    "email": "Jacynthe_Monahan73@hotmail.com",
+    "gender": "Male",
+    "status": "Inactive"
+  },
+  {
+    "name": "Carlton Legros",
+    "email": "Coleman_Legros@yahoo.com",
+    "gender": "Male",
+    "status": "Inactive"
+  },
+  {
+    "name": "Shawn Jacobson",
+    "email": "Payton49@hotmail.com",
+    "gender": "Male",
+    "status": "Inactive"
+  }
+]
