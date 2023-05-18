@@ -18,7 +18,7 @@ Execute `npm install` (ou `npm i` para a versão curta) para instalar as depend�
 
 ## Tests
 
-> **Note:** Antes de executar os testes, faça uma cópia do arquivo `cypress.env.example.json` como `cypress.env.json`, que no mundo real, você atualizaria com uma credencial válida (token), na qual é necessário realizar cadastro no site da Go Rest https://gorest.co.in/ para gerar seu prórpio token de acesso aos recursos da API.
+> **Note:** Antes de executar os testes, faça uma cópia do arquivo `cypress.env.example.json` como `cypress.env.json`, que no mundo real, você atualizaria com uma credencial válida (token), na qual é necessário realizar cadastro no site da Go Rest https://gorest.co.in/ para gerar seu próprio token de acesso aos recursos da API.
 
 
 > **Comandos Personalizados**
@@ -30,11 +30,11 @@ cy.postCreate() - Cria um novo usuário na API com dados gerados aleatoriamente 
 
 cy.postCreateExisting() - Tenta criar um novo usuário na API com um e-mail que já existe, retornando uma mensagem de erro informando que o e-mail já foi utilizado.
 
-cy.deleteUser() - Exclui o primeiro usuário da lista de usuários da API.
+cy.deleteUser() - Exclui um usuário da lista de usuários da API.
 
 cy.updateUserPut() - Atualiza todos os campos do primeiro usuário da lista de usuários da API com dados gerados aleatoriamente pelo faker.
 
-cy.updateUserPatch() - Atualiza apenas o e-mail do primeiro usuário da lista de usuários da API com um e-mail gerado aleatoriamente pelo faker.
+cy.updateUserPatch() - Atualiza apenas o e-mail de um usuário da lista de usuários da API com um e-mail gerado aleatoriamente pelo faker.
 
 
 > O arquivo `cypress.env.json` está incluído em [`.gitignore`](./.gitignore) e você está seguro de que informações confidenciais não serão controladas
